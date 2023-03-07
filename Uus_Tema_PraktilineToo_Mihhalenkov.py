@@ -1,4 +1,4 @@
-﻿from OmaMoodul import *
+from OmaMoodul import *
 est_words = Loe_failist('est.txt')
 rus_words = Loe_failist('rus.txt')
 '''
@@ -54,7 +54,7 @@ while True:
         word = input('Введите слово для исправления: ')
         fix_словарь(word, est_words, rus_words)
     elif choice == '0':
-        print("")
+        test()
     elif choice == '5':
         break
 
